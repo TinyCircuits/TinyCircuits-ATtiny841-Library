@@ -8,7 +8,6 @@ it is intended to be hackable and allow for extra functionality to be implemente
 
 *Support this library by buying products from **[TinyCircuits](https://tinycircuits.com/)***
 
----
 
 ## CapTouchWireling Class
 
@@ -23,7 +22,6 @@ This class inherits ATtiny841Lib functions and implements specific functionality
 * **int16_t getMagnitude()** If a finger is present, return the magnitude of all sensor readings
 * **uint32_t duration()** If a finger is present return the current duration it has been present. If no longer present, return the total time of the previous tap
 
----
 
 ## ServoDriver Class
 
@@ -34,7 +32,6 @@ This class inherits ATtiny841Lib functions and implements specific functionality
 * **void setServo(uint8_t servo, int16_t val)** Set *servo* (1, 2, 3, 4) PWM to *val*(0 to +PWMperiod, but typically 1000 to 2000)
 * **void sleep()** Powerdown the ATtiny841 until another command is sent
 
----
 
 ## MotorDriver Class
 
@@ -44,7 +41,6 @@ This class inherits ATtiny841Lib functions and implements specific functionality
 * **void setMotor(uint8_t motor, int16_t val)** Set *motor*(1 or 2) PWM to *val*(-PWMperiod to +PWMperiod)
 * **void sleep()** Powerdown the ATtiny841 until another command is sent
 
----
 
 ## ATtiny841Lib Class
 
