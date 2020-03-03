@@ -1,4 +1,4 @@
-# TinyCircuits ATtiny841 Library
+# TinyCircuits ATtiny841 Arduino Library
 
 This Arduino library is intended for use with TinyCircuits' **[ASD2302 Dual Motor Driver TinyShield](https://tinycircuits.com/collections/motors-1/products/dual-motor-tinyshield)**, **[ASD2303 Servo Controller TinyShield](https://tinycircuits.com/collections/motors-1/products/servo-tinyshield)**, and **[AST1003 Capacitive Touch Slider Wireling](https://tinycircuits.com/collections/wireling-sensors/products/capacitive-touch-slider-wireling)**. 
 
