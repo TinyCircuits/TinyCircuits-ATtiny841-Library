@@ -1,5 +1,7 @@
 # TinyCircuits ATtiny841 Arduino Library
 
+*Note: This library is the new and improved version of the classic **[Motor Driver library]()** - be sure to remove the MotorDriver library from your Arduino/libraries folder so that there are no conflicts between the two libraries!*
+
 This Arduino library is intended for use with TinyCircuits' **[ASD2302 Dual Motor Driver TinyShield](https://tinycircuits.com/collections/motors-1/products/dual-motor-tinyshield)**, **[ASD2303 Servo Controller TinyShield](https://tinycircuits.com/collections/motors-1/products/servo-tinyshield)**, and **[AST1003 Capacitive Touch Slider Wireling](https://tinycircuits.com/collections/wireling-sensors/products/capacitive-touch-slider-wireling)**. 
 
 These boards use a ATtiny841 microcontroller with firmware that allows the 16 bit PWM outputs to be controlled through I²C. 
